@@ -80,7 +80,16 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Axislabs. BSL-1.1 License.
           </p>
           <p className="text-sm text-zinc-600">
-            Built by Roger Chappel &amp; Community.
+            Built by{' '}
+            <a
+              href="https://rogerchappel.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-500 hover:text-white transition-colors"
+            >
+              Roger Chappel
+            </a>{' '}
+            &amp; Community.
           </p>
         </div>
       </div>
