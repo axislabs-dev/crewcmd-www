@@ -6,7 +6,6 @@ const links = [
     items: [
       { label: 'Features', href: '#features' },
       { label: 'FAQ', href: '#faq' },
-      { label: 'Changelog', href: '#' },
     ],
   },
   {
@@ -16,16 +15,20 @@ const links = [
         label: 'GitHub',
         href: 'https://github.com/axislabs-dev/crewcmd',
       },
-      { label: 'Discord', href: '#' },
-      { label: 'Twitter', href: '#' },
+      {
+        label: 'Twitter',
+        href: 'https://x.com/roger_creator',
+      },
     ],
   },
   {
     title: 'Company',
     items: [
       { label: 'Axislabs', href: 'https://axislabs.dev' },
-      { label: 'Docs', href: '#' },
-      { label: 'Blog', href: '#' },
+      {
+        label: 'OpenClaw',
+        href: 'https://github.com/openclaw/openclaw',
+      },
     ],
   },
 ]
@@ -44,8 +47,7 @@ export function Footer() {
               <span className="text-lg font-bold text-white">CrewCmd</span>
             </div>
             <p className="mt-3 text-sm leading-relaxed text-zinc-500">
-              The AI-native workspace where humans and AI agents work side by
-              side.
+              The AI-native workspace for managing your OpenClaw agent team.
             </p>
           </div>
 
@@ -60,6 +62,8 @@ export function Footer() {
                   <li key={item.label}>
                     <a
                       href={item.href}
+                      target={item.href.startsWith('http') ? '_blank' : undefined}
+                      rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                       className="text-sm text-zinc-500 transition hover:text-white"
                     >
                       {item.label}
@@ -76,7 +80,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Axislabs. BSL-1.1 License.
           </p>
           <p className="text-sm text-zinc-600">
-            Built with Next.js, Payload CMS, and Tailwind CSS.
+            Built by Roger Chappel &amp; Community.
           </p>
         </div>
       </div>

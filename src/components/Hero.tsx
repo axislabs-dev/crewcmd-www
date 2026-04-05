@@ -30,17 +30,26 @@ export function Hero() {
 
         {/* Headline */}
         <h1 className="text-5xl leading-tight font-extrabold tracking-tight text-white sm:text-6xl lg:text-7xl">
-          Your team of 3,
+          Give your team
           <br />
           <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-            operating like 30.
+            AI superpowers.
           </span>
         </h1>
 
         {/* Subheadline */}
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-zinc-400 sm:text-xl">
           The AI-native workspace where humans and AI agents work side by side.
-          Same task board, same org chart, same inbox.
+          Same task board, same org chart, same inbox. Built for teams running{' '}
+          <a
+            href="https://github.com/openclaw/openclaw"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan-400 hover:text-cyan-300 transition"
+          >
+            OpenClaw
+          </a>
+          .
         </p>
 
         {/* CTAs */}

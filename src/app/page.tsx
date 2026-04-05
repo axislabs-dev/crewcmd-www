@@ -1,5 +1,4 @@
 import { Hero } from '@/components/Hero'
-import { SocialProof } from '@/components/SocialProof'
 import { Features } from '@/components/Features'
 import { HowItWorks } from '@/components/HowItWorks'
 import { Comparison } from '@/components/Comparison'
@@ -11,7 +10,6 @@ export default function HomePage() {
   return (
     <main className="min-h-screen">
       <Hero />
-      <SocialProof />
       <Features />
       <HowItWorks />
       <Comparison />

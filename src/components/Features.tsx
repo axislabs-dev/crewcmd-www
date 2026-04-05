@@ -8,27 +8,26 @@ import {
   GitBranch,
   DollarSign,
   Mic,
-  Sparkles,
 } from 'lucide-react'
 
 const features = [
   {
-    icon: Rocket,
-    title: 'One-Click Team Deploy',
+    icon: Bot,
+    title: 'BYO OpenClaw Runtime',
     description:
-      'Pre-built blueprints get your human+agent team running in minutes, not days.',
+      'Connect your existing OpenClaw gateway and import your entire agent team. Your runtime, your agents, managed from one place.',
   },
   {
-    icon: Bot,
-    title: 'Bring Your Own Agents',
+    icon: Rocket,
+    title: 'One-Click Agent Team Import',
     description:
-      'Claude Code, Codex, Gemini, Cursor, OpenCode — use whatever agents you already love.',
+      'Connect to your OpenClaw gateway and import your agents with one click. Or deploy a pre-built blueprint to spin up a whole crew instantly.',
   },
   {
     icon: Inbox,
-    title: 'Agent Inbox',
+    title: 'Action Items Inbox',
     description:
-      'Centralized comms hub. Every agent message, every human reply, one place.',
+      'A centralized inbox for items that need your attention. Agents surface decisions, blockers, and approvals. You review and act.',
   },
   {
     icon: Store,
@@ -52,7 +51,7 @@ const features = [
     icon: GitBranch,
     title: 'Visual Org Chart',
     description:
-      'Map your team structure — humans and agents — and see the hierarchy.',
+      'Map your team structure with humans and agents side by side. Set reporting lines and delegation rules.',
   },
   {
     icon: DollarSign,
@@ -65,12 +64,6 @@ const features = [
     title: 'Voice Chat',
     description:
       'Talk to your agents naturally. Voice in, structured actions out.',
-  },
-  {
-    icon: Sparkles,
-    title: 'Simple & Pro Modes',
-    description:
-      'Simple mode for quick tasks. Pro mode for full control and customization.',
   },
 ]
 

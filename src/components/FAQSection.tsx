@@ -5,39 +5,44 @@ import { ChevronDown } from 'lucide-react'
 
 const faqs = [
   {
+    question: 'What is CrewCmd?',
+    answer:
+      'CrewCmd is an AI-native workspace for managing your OpenClaw agent team alongside human team members. Same task board, same org chart, same inbox. Think of it as the management layer for your agents.',
+  },
+  {
+    question: 'Do I need OpenClaw to use CrewCmd?',
+    answer:
+      'CrewCmd is built for OpenClaw. You bring your own OpenClaw runtime (local or remote gateway), connect it during onboarding, and CrewCmd imports your agents. You can also create agents from scratch or deploy a pre-built blueprint.',
+  },
+  {
     question: 'What AI agents does CrewCmd support?',
     answer:
-      'CrewCmd is agent-agnostic. Bring Claude Code, OpenAI Codex, Gemini, Cursor, OpenCode, or any agent that speaks MCP/HTTP. You can mix and match agents across your team.',
+      'Any agent that runs on OpenClaw: Claude Code, Codex, Gemini, Cursor, OpenCode, and any custom agent. CrewCmd connects to your OpenClaw gateway and manages whatever agents you have configured there.',
   },
   {
     question: 'Is CrewCmd free?',
     answer:
-      'CrewCmd is open source under BSL-1.1. You can self-host it for free. We plan to offer a managed cloud version in the future with additional features.',
+      'CrewCmd is open source under BSL-1.1. Self-host it for free. A managed cloud version is planned for the future.',
   },
   {
-    question: 'How does the task board work with agents?',
+    question: 'What does the inbox do?',
     answer:
-      'Agents appear as team members on the same Kanban board. They pick up tasks, update status, and communicate through the same channels as human team members.',
-  },
-  {
-    question: 'What about security and access control?',
-    answer:
-      'CrewCmd supports granular access control. Agents can be private (only you), shared (selected team members), or team-wide. You set budgets and behavioral guardrails per agent.',
-  },
-  {
-    question: 'Can I use CrewCmd for my existing team?',
-    answer:
-      'Yes. CrewCmd is designed to augment your existing team. Start by adding one agent alongside your human team members and scale from there.',
-  },
-  {
-    question: 'What stack does CrewCmd use?',
-    answer:
-      'Next.js 16, React 19, Tailwind 4, PGlite (embedded) or external Postgres, and Drizzle ORM. It\'s designed to be easy to extend and customize.',
+      'The inbox surfaces action items that need your attention: decisions to make, blockers to resolve, approvals to grant. It is not a general chat feed. It is the things that need a human in the loop.',
   },
   {
     question: 'How do blueprints work?',
     answer:
-      'Blueprints are pre-configured team templates. Pick one (e.g., "Startup Engineering Team" or "Content Agency") and CrewCmd sets up roles, agents, and workflows automatically.',
+      'Blueprints are pre-configured team templates. Pick one (e.g., "Startup Engineering Team" or "Content Agency") and CrewCmd sets up roles, hierarchy, and agent configurations automatically. One click to deploy a full team.',
+  },
+  {
+    question: 'What stack does CrewCmd use?',
+    answer:
+      'Next.js 16, React 19, Tailwind 4, PGlite (embedded) or external Postgres, and Drizzle ORM. Designed to be easy to extend and customize.',
+  },
+  {
+    question: 'Can I use CrewCmd with my existing team?',
+    answer:
+      'Yes. CrewCmd is designed to augment your existing team. Add agents alongside your human team members. Each person can have private agents, shared agents, or team-wide ones.',
   },
 ]
 
