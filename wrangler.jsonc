@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "main": ".open-next/worker.js",
   "name": "crewcmd-www",
-  "compatibility_date": "2026-04-05",
+  "compatibility_date": "2026-05-07",
   "compatibility_flags": [
     "nodejs_compat"
   ],
