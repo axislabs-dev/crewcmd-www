@@ -14,7 +14,7 @@ export function CTA() {
 
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="https://github.com/axislabs-dev/crewcmd"
+              href="https://github.com/rogerchappel/crewcmd"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 text-sm font-semibold text-black transition hover:bg-zinc-200"
@@ -23,7 +23,7 @@ export function CTA() {
               View on GitHub
             </a>
             <a
-              href="https://github.com/axislabs-dev/crewcmd"
+              href="https://github.com/rogerchappel/crewcmd"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg border border-yellow-500/30 bg-yellow-500/10 px-6 py-3 text-sm font-semibold text-yellow-400 transition hover:bg-yellow-500/20"

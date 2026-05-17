@@ -22,7 +22,7 @@ const faqs = [
   {
     question: 'Is CrewCmd free?',
     answer:
-      'CrewCmd is open source under BSL-1.1. Self-host it for free. A managed cloud version is planned for the future.',
+      'CrewCmd core is open source under Apache-2.0. Self-host it for free. A managed cloud version is planned for the future.',
   },
   {
     question: 'What does the inbox do?',
