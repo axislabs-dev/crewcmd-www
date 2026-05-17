@@ -7,7 +7,7 @@ const steps = [
     title: 'Clone & Install',
     description:
       'Clone the repo and install dependencies. No Docker, no cloud database, no config files.',
-    code: 'git clone https://github.com/axislabs-dev/crewcmd.git && pnpm install',
+    code: 'git clone https://github.com/rogerchappel/crewcmd.git && pnpm install',
   },
   {
     icon: Building2,

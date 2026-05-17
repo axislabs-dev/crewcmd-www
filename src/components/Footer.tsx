@@ -13,7 +13,7 @@ const links = [
     items: [
       {
         label: 'GitHub',
-        href: 'https://github.com/axislabs-dev/crewcmd',
+        href: 'https://github.com/rogerchappel/crewcmd',
       },
       {
         label: 'Twitter',
@@ -77,7 +77,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-[var(--color-surface-300)] pt-8 sm:flex-row">
           <p className="text-sm text-zinc-600">
-            &copy; {new Date().getFullYear()} Axislabs. BSL-1.1 License.
+            &copy; {new Date().getFullYear()} Axislabs. Apache-2.0 License.
           </p>
           <p className="text-sm text-zinc-600">
             Built by{' '}

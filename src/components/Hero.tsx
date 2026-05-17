@@ -8,7 +8,7 @@ export function Hero() {
 
   const copyCommand = () => {
     navigator.clipboard.writeText(
-      'git clone https://github.com/axislabs-dev/crewcmd.git && cd crewcmd && pnpm install && pnpm dev:https',
+      'git clone https://github.com/rogerchappel/crewcmd.git && cd crewcmd && pnpm install && pnpm dev',
     )
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
@@ -25,7 +25,7 @@ export function Hero() {
         {/* Badge */}
         <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-[var(--color-surface-300)] bg-[var(--color-surface-100)] px-4 py-1.5 text-sm text-zinc-400">
           <span className="h-2 w-2 rounded-full bg-cyan-400 animate-pulse" />
-          Open Source &middot; BSL-1.1
+          Open Source &middot; Apache-2.0
         </div>
 
         {/* Headline */}
@@ -55,7 +55,7 @@ export function Hero() {
         {/* CTAs */}
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="https://github.com/axislabs-dev/crewcmd"
+            href="https://github.com/rogerchappel/crewcmd"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 text-sm font-semibold text-black transition hover:bg-zinc-200"
@@ -94,7 +94,7 @@ export function Hero() {
               >
                 <div className="text-zinc-500">
                   <span className="text-cyan-400">$</span> git clone
-                  https://github.com/axislabs-dev/crewcmd.git
+                  https://github.com/rogerchappel/crewcmd.git
                 </div>
                 <div className="text-zinc-500">
                   <span className="text-cyan-400">$</span> cd crewcmd
@@ -103,7 +103,7 @@ export function Hero() {
                   <span className="text-cyan-400">$</span> pnpm install
                 </div>
                 <div className="text-zinc-500">
-                  <span className="text-cyan-400">$</span> pnpm dev:https
+                  <span className="text-cyan-400">$</span> pnpm dev
                 </div>
                 <div className="mt-2 text-xs text-zinc-600 transition group-hover:text-zinc-400">
                   {copied ? '✓ Copied!' : 'Click to copy'}

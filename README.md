@@ -1,6 +1,6 @@
 # CrewCmd — Marketing Site
 
-Marketing and landing page for [CrewCmd](https://github.com/axislabs-dev/crewcmd), the AI-native workspace where humans and AI agents work side by side.
+Marketing and landing page for [CrewCmd](https://github.com/rogerchappel/crewcmd), the AI-native workspace where humans and AI agents work side by side.
 
 ## Stack
 
